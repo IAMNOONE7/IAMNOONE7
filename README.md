@@ -40,8 +40,13 @@ I am currently working on my biggest project so far:
 
 > A full-stack financial analytics platform built with **FastAPI** and **React**.
 
-The repository for this platform is private.  
-For recruiters or anyone seriously interested, I am happy to show the platform during a call.
+The platform is available here: [www.tradinglenses.com](https://www.tradinglenses.com)
+
+Please note that the platform is currently under **active development and testing**, so the online version may not contain all features that I already have available offline. Since the website is still in a testing phase, it may also occasionally be unavailable or temporarily down.
+
+If you would like to see the platform and the website is not available, feel free to contact me. I can put it back online or show it during a call.
+
+For recruiters or anyone seriously interested, I am happy to present the platform and discuss the technical details.
 
 ### Core Stack
 
