@@ -71,10 +71,6 @@ For recruiters or anyone seriously interested, I am happy to present the platfor
 - Secure authentication flow
 - Scalable architecture prepared for cloud deployment
 
-### Planned ETA
-
-**June 2026**
-
 ### Platform Features
 
 - Real-time insider trading feeds from SEC EDGAR
