@@ -1,9 +1,8 @@
-I'm a software developer with **5 years of professional experience** and around **12 years of coding experience**, starting from high school, continuing through college, and now in industry.
+I'm a software developer with **5 years of professional experience** and around **12 years of coding experience**, starting in high school, continuing through college, and now in industry.
 
-My main languages are **C#** and **Python**, but over the years I have worked across a broad technical range — from **Assembly**, **C**, **C++**, **VBA**, **SQL**, and **TypeScript**, to technologies such as **PLC programming**, **VHDL**, and **MATLAB**.
+My main languages are **C#** and **Python**, but I have worked across a broad technical range — from **Assembly**, **C**, **C++**, **VBA**, **SQL**, and **TypeScript** to **PLC programming**, **VHDL**, and **MATLAB**.
 
-In both international companies where I have worked, I gradually grew into a **development leadership role**.  
-I am currently acting as the **technical owner of C# development**, responsible for architectural decisions, technical direction, and overall solution quality.
+At both international companies where I have worked, I gradually took on **development leadership responsibilities**. I currently act as the **technical owner of C# development**, responsible for architectural decisions, technical direction, and overall solution quality.
 
 ---
 
@@ -12,43 +11,98 @@ I am currently acting as the **technical owner of C# development**, responsible 
 ### Main
 
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-### Also worked with
+### Frameworks, Databases & Infrastructure
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![VBA](https://img.shields.io/badge/VBA-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
 ![MSSQL](https://img.shields.io/badge/MS%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+### Also Worked With
+
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![VBA](https://img.shields.io/badge/VBA-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
-And many more technologies across software development, automation, data systems, and industrial engineering.
+My experience also includes industrial automation, engineering tools, and data systems.
 
 ---
 
-## Current Focus
+## Projects
 
-### Platform for Stocks
+My current development work focuses on **HomeData** and **ShopForge**. **TradingLenses** remains live but is not currently under active development.
 
-I am currently working on my biggest project so far:
+### HomeData — Utility Consumption Platform
 
-> A full-stack financial analytics platform built with **FastAPI** and **React**.
+**Status: Active development** · [domacidata.cz](https://domacidata.cz)
 
-The platform is available here: [www.tradinglenses.com](https://www.tradinglenses.com)
+A platform for collecting and analysing household **water, electricity, and gas consumption**. It connects meter readings with dashboards that help users understand their usage, costs, and consumption patterns.
 
-Please note that the platform is currently under **active development and testing**, so the online version may not contain all features that I already have available offline. Since the website is still in a testing phase, it may also occasionally be unavailable or temporarily down.
+The project brings together device data ingestion, historical data processing, and a web application for exploring the results.
 
-If you would like to see the platform and the website is not available, feel free to contact me. I can put it back online or show it during a call.
+| Area | Technology |
+|---|---|
+| Backend | Python, FastAPI |
+| Frontend | React, TypeScript |
+| Database | PostgreSQL |
+| Data ingestion | Azure IoT Hub, Azure Functions |
+| Hosting | Azure |
 
-For recruiters or anyone seriously interested, I am happy to present the platform and discuss the technical details.
+Key areas include:
 
-### Core Stack
+- Device registration and association with user accounts
+- Consumption overviews and detailed historical charts
+- Hourly, daily, and monthly data aggregation
+- Cost calculations based on configurable utility prices
+- Consumption patterns, trends, and peak usage analysis
+
+### ShopForge — Multi-Store E-Commerce Platform
+
+**Status: Active development** · [GitHub repository](https://github.com/IAMNOONE7/ShopForge)
+
+A **multi-store e-commerce platform** where one ASP.NET Core backend and a shared React storefront serve independent stores, each with its own domain, branding, catalog, and configuration.
+
+New stores are provisioned through **configuration and data, without a separate deployment**. The platform uses a modular monolith with shared infrastructure and isolation between tenants and stores.
+
+| Area | Technology / Approach |
+|---|---|
+| Backend | C#, .NET 10, ASP.NET Core minimal APIs |
+| Frontends | React, TypeScript, Vite — storefront and admin portal |
+| Database | PostgreSQL, Entity Framework Core |
+| Architecture | Modular monolith, shared-database multi-tenancy, transactional outbox |
+| Testing | xUnit, Testcontainers, architecture tests, end-to-end test harness |
+| Infrastructure | Azure Container Apps, Front Door, Blob Storage, Key Vault |
+| Tooling | Docker Compose, GitHub Actions, Bicep |
+| Observability | OpenTelemetry traces and business metrics |
+
+Implemented capabilities include:
+
+- Hostname-based store resolution, DNS ownership verification, and tenant isolation enforced in application code and database constraints
+- Shared products and warehouse stock, with per-store listings, pricing, typed attributes, dynamic filters, and Excel imports
+- Guest and customer checkout, stock reservations, signed Stripe payment webhooks, and idempotent checkout and refund requests
+- Discount codes, VAT calculations, PDF invoices, returns, refunds, and credit notes
+- Staff invitations, roles, session invalidation, and two-factor authentication for staff and platform operators
+- Transactional email through Mailgun, background processing with retries, and an append-only audit trail
+- Customer data export and erasure, consent records, and data retention workflows
+
+Azure infrastructure and deployment automation are defined in code; the Azure deployment has not yet been run.
+
+### TradingLenses — Financial Analytics Platform
+
+**Status: Live; not currently under active development** · [tradinglenses.com](https://www.tradinglenses.com)
+
+A full-stack financial analytics platform built with **FastAPI** and **React**, bringing together company fundamentals, market data, insider trading activity, and financial comparisons.
+
+The platform is live and available online. My current development focus has shifted to HomeData and ShopForge.
 
 | Area | Technology |
 |---|---|
@@ -59,49 +113,41 @@ For recruiters or anyone seriously interested, I am happy to present the platfor
 | Authentication | JWT with secure refresh-token rotation |
 | Styling | Tailwind CSS + custom design-token system |
 | Architecture | Layered architecture, repository pattern, dependency injection |
-| Infrastructure target | Azure |
+| Infrastructure | Azure |
 
-### Additional Features
+Platform features include:
 
-- Rate limiting
-- Cursor-based pagination
-- Internationalization
-- Dark/light themes
+- Company overviews, financial statements, and fundamental analysis
+- Company and sector comparisons
+- Price charts and market sentiment dashboards
+- Insider trading data and aggregated activity
 - Integrated AI capabilities
-- Secure authentication flow
-- Scalable architecture prepared for cloud deployment
+- Internationalization and dark/light themes
 
-### Platform Features
+Technical features include rate limiting, cursor-based pagination, secure authentication, and scheduled data-processing jobs.
 
-- Real-time insider trading feeds from SEC EDGAR
-- Market sentiment dashboards
-- Financial statements
-- Company overviews, details, and comparisons
-- Integrated AI capabilities
-- Advanced financial analytics
+I am happy to demonstrate the platform and discuss its architecture and implementation with recruiters, hiring managers, and engineers interested in the work.
 
 ---
 
 ## Key Accomplishments
 
-### Delivered innovations resulting in ~€3M cost savings
+### Engineering Tools and Process Improvements — Approximately €4M in Estimated Savings
 
-I led and independently initiated the development of engineering tools and process innovations over an 18-month period.
+Over an 18-month period, I independently initiated and led the development of engineering tools and process improvements.
 
-The result was an estimated **35% reduction in labor time**, generating around **€3M in savings to date**, with a projected long-term impact of up to **€10M**.
+These changes resulted in an estimated **35% reduction in labor time**, generating approximately **€4M in savings to date**, with a projected long-term impact of up to **€15M**.
 
----
+### Smart Wiring Platform
 
-### Industry-recognized smart wiring platform
+I independently designed and developed a smart wiring platform comparable in concept to commercial EPLAN solutions.
 
-I designed and independently developed a smart wiring platform comparable in concept to commercial EPLAN solutions.
-
-The platform transformed EPLAN exports into an interactive, server-based application for cabinet assembly. It enabled:
+The platform transformed EPLAN exports into an interactive, server-based application for cabinet assembly, providing:
 
 - Project-based wiring guidance
 - Advanced cable filtering
-- Clear technician instructions
-- Assembly without the need for physical schematics
+- Clear instructions for technicians
+- Assembly workflows without the need for physical schematics
 
 The solution was recognized by industry professionals for its completeness and practical usability.
 
@@ -109,9 +155,9 @@ The solution was recognized by industry professionals for its completeness and p
 
 ## About My Public Repositories
 
-Most public repositories here are shared as small technical references
+My public repositories include technical references, smaller projects, and **ShopForge**, a larger platform currently under development.
 
-Most of my real-world projects and larger professional codebases are covered by NDA. In recent months, I have been focused primarily on the stock platform, which is also private.
+Most of my professional codebases are covered by NDA, and TradingLenses is also private. Other projects are presented through live websites and demonstrations, so the repositories here represent only part of my work.
 
 ---
 
@@ -119,11 +165,12 @@ Most of my real-world projects and larger professional codebases are covered by 
 
 - Backend and full-stack application development
 - C# architecture and technical leadership
-- Python data and analytics systems
+- Python data processing and analytics systems
 - SQL and database design
-- Engineering tools and internal platforms
+- Multi-tenant platforms and e-commerce systems
+- IoT data ingestion and utility consumption analytics
 - Financial analytics software
-- Industrial and automation-related software
+- Engineering tools and industrial automation software
 
 ---
 
@@ -131,4 +178,4 @@ Most of my real-world projects and larger professional codebases are covered by 
 
 If you are a recruiter, hiring manager, or engineer interested in my work, feel free to reach out.
 
-While I cannot share most production repositories publicly, I am open to discussing my experience and showing selected private work where appropriate.
+While I cannot share most production repositories publicly, I am happy to discuss my experience and demonstrate selected private projects where appropriate.
